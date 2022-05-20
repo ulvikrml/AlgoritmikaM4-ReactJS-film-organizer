@@ -14,7 +14,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Navigate to='/main' />} />
           <Route path='/main' element={<MainPage />} />
-          <Route path='/saved-favorities/:id' element={<SavedFavoritesPage />} />
+          <Route path='/saved-favorite/:id' element={<SavedFavoritesPage />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </BrowserRouter>
