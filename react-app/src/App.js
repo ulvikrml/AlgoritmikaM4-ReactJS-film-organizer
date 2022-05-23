@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import Navbar from './components/navbar/Navbar';
 import SavedFavoritesPage from './pages/SavedFavoritesPage';
 import MainPage from './pages/MainPage';
 import NotFound from './pages/NotFound';

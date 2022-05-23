@@ -18,6 +18,7 @@
 
 .favorites__list {
     margin-bottom: 24px;
+    padding-left: 10px;
 }
 
 .favorites__list-item{
@@ -28,6 +29,7 @@
 }
 .favorites__list-item button{
     cursor: pointer;
+    margin-left: 10px;
 }
 
 .favorites__save {
@@ -43,4 +45,11 @@
     cursor: pointer;
     opacity: 0.9;
     transition: all 0.2s linear;
+}
+
+@media screen and (max-width:972px) {
+    .favorites-container{
+        width: 60%;
+        margin-bottom: 60px;
+    }
 }

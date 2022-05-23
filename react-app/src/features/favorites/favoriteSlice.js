@@ -16,15 +16,13 @@ const favoriteSlice = createSlice({
         removeFav: (state, action) =>{
             state.favorites = state.favorites.filter(f => f.imdbID !== action.payload);
         },
-        saveFav: (state,action) =>{
-            state.savedId = 'abc'
+        saveFavs: (state,action) =>{
+            state.savedId = action.payload
         }
     }
 })
 
 export const selectSavedId = (state) => state.favorite.savedId; 
 export const selectFavorites = (state) => state.favorite.favorites;
-
-export const {addFav, removeFav, saveFav} = favoriteSlice.actions;
-
+export const {addFav, removeFav, saveFavs} = favoriteSlice.actions;
 export default favoriteSlice.reducer;

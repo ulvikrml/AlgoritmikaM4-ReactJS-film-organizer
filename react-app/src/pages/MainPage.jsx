@@ -1,6 +1,6 @@
 import React from 'react'
-import Movies from '../components/Movies';
-import Favorities from '../components/Favorities';
+import Movies from '../components/movies/Movies';
+import Favorities from '../components/favorities/Favorities';
 import './MainPage.css'
 
 const MainPage = () => {

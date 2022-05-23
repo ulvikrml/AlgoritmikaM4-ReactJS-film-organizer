@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux';
-import { addFav, selectSavedId } from '../features/favorites/favoriteSlice';
+import { addFav, selectSavedId } from '../../features/favorites/favoriteSlice';
 import './MoviesListItem.css';
 
 const MoviesListItem = ({ movie }) => {

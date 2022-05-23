@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
-import {api} from '../api'
+import {api} from '../../api'
 import MoviesList from './MoviesList'
-import SearchForm from './SearchForm';
+import SearchForm from '../searchform/SearchForm';
 import './Movies.css'
 
 const Movies = () => {
